@@ -1,0 +1,38 @@
+@media (max-width: 1260px) {
+  .nav__item:not(:first-child) {
+    margin-left: 20px !important;
+  }
+}
+@media (max-width: 1256px) {
+  .nav__item:not(:first-child) {
+    margin-left: 10px !important;
+  }
+
+  .nav__logo-block {
+    width: 870px !important;
+  }
+}
+@media (max-width: 1200px) {
+  .nav__item {
+    font-size: 30px !important;
+  }
+
+  .nav__logo-block {
+    width: 790px !important;
+  }
+
+  .nav__user {
+    width: 140px !important;
+  }
+}
+@media (max-width: 1098px) {
+  .nav__logo {
+    margin-left: 18px !important;
+  }
+
+  .nav__logo-block {
+    width: 775px !important;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
