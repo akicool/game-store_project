@@ -117,5 +117,177 @@
     width: 650px !important;
   }
 }
+@media (max-width: 991px) {
+  .app__genre-button-link {
+    width: 160px !important;
+  }
+
+  .app__block .app__genre-block img {
+    width: 115px !important;
+    height: 115px !important;
+  }
+
+  .app__genre-button {
+    width: 180px !important;
+    height: 280px !important;
+  }
+
+  .app__genre-text {
+    font-size: 40px !important;
+  }
+
+  .app__genre-button-text {
+    font-size: 24px !important;
+  }
+
+  .app__current-text {
+    font-size: 40px !important;
+  }
+}
+@media (max-width: 985px) {
+  .app__current-button {
+    width: 370px !important;
+  }
+
+  .app__current-button-link {
+    width: 180px !important;
+    font-size: 28px !important;
+  }
+
+  .app__current-button-text {
+    margin-right: 16px !important;
+  }
+}
+@media (max-width: 950px) {
+  .nav__item {
+    line-height: 30px !important;
+  }
+
+  .nav__logo {
+    font-size: 31px !important;
+  }
+
+  .nav__logo-block {
+    width: 560px !important;
+  }
+
+  .nav__item {
+    font-size: 18px !important;
+  }
+}
+@media (max-width: 940px) {
+  .app__current-button {
+    width: 300px !important;
+  }
+
+  .app__current-button-text {
+    font-size: 24px !important;
+  }
+
+  .app__current-button img {
+    width: 90px !important;
+    height: 100px !important;
+    margin-top: 42px !important;
+  }
+
+  .app__current-button-link {
+    width: 155px !important;
+    font-size: 25px !important;
+  }
+
+  .app__current-button {
+    height: 175px !important;
+  }
+}
+@media (max-width: 868px) {
+  .nav__user {
+    width: 130px !important;
+  }
+
+  .nav__user img {
+    width: 41px !important;
+    height: 41px !important;
+  }
+
+  .nav__user-text {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .nav__user-subtext {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .app__current-button {
+    width: 288px !important;
+    height: 111px !important;
+  }
+
+  .app__current-text {
+    font-size: 28px !important;
+    margin-top: 20px !important;
+  }
+
+  .app__current-button-text {
+    font-size: 21px !important;
+    margin-right: 30px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .app__current-button-link {
+    width: 132px !important;
+    height: 32px !important;
+    font-size: 21px !important;
+  }
+
+  .app__current-button img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-top: 18px !important;
+    margin-left: 18px !important;
+  }
+
+  .app__genre-text {
+    font-size: 28px !important;
+    margin-top: 25px !important;
+  }
+
+  .app__genre-button {
+    width: 153px !important;
+    height: 180px !important;
+  }
+
+  .app__block .app__genre-block img {
+    width: 80px !important;
+    height: 80px !important;
+    margin-top: 19px !important;
+  }
+
+  .app__genre-button-text {
+    font-size: 21px !important;
+    line-height: 35px !important;
+  }
+
+  .app__genre-button-link {
+    width: 115px !important;
+    height: 30px !important;
+    font-size: 14px !important;
+    line-height: 18 !important;
+  }
+
+  .app__genre-button-column-one {
+    margin-top: 24px !important;
+  }
+}
+@media (max-width: 845px) {
+  .nav__item {
+    font-size: 15px !important;
+  }
+
+  .nav__logo-block {
+    width: 520px !important;
+  }
+}
 
 /*# sourceMappingURL=media.css.map */
