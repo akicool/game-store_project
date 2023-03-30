@@ -200,6 +200,15 @@
   }
 }
 @media (max-width: 868px) {
+  .container {
+    padding-top: 0 !important;
+  }
+
+  .nav {
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+  }
+
   .nav__user {
     width: 130px !important;
   }
@@ -279,6 +288,12 @@
   .app__genre-button-column-one {
     margin-top: 24px !important;
   }
+
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    width: 128px !important;
+    justify-content: space-evenly;
+    height: 23px !important;
+  }
 }
 @media (max-width: 845px) {
   .nav__item {
@@ -287,6 +302,220 @@
 
   .nav__logo-block {
     width: 520px !important;
+  }
+
+  .app__genre-button-column-one {
+    flex-wrap: wrap;
+  }
+
+  .app__genre-button-column-two {
+    flex-wrap: wrap;
+  }
+
+  .app__genre-button {
+    margin-top: 30px;
+  }
+
+  .app__current-button-column-one {
+    flex-wrap: wrap;
+  }
+
+  .app__current-button-column-two {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 800px) {
+  .nav__item img {
+    width: 20px !important;
+    height: 20px !important;
+  }
+
+  .nav__logo-block {
+    width: 485px !important;
+  }
+}
+@media (max-width: 770px) {
+  .swiper-slide-active {
+    margin-right: 0 !important;
+  }
+
+  .swiper__pahination-border {
+    bottom: 10px !important;
+  }
+}
+@media (max-width: 763px) {
+  .nav__item {
+    height: 30px !important;
+  }
+
+  ul.nav__list {
+    align-items: center;
+  }
+
+  .nav__logo {
+    margin-left: 15px !important;
+  }
+
+  .nav__item {
+    font-size: 13px !important;
+  }
+
+  .nav__logo-block {
+    width: 455px !important;
+  }
+}
+@media (min-width: 745px) {
+  .footer__app {
+    display: none;
+  }
+}
+@media (max-width: 745px) {
+  .nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+  }
+
+  .nav__list {
+    display: none !important;
+  }
+
+  .nav__logo-block {
+    width: 115px !important;
+  }
+
+  .app__current-block {
+    background: #D9D9D9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .app__genre-block {
+    background: #D9D9D9;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .footer__app {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #FFFFFF;
+    z-index: 101;
+    left: 0;
+    bottom: 0;
+    height: 104px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+
+  .footer__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .footer__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #7e8191;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+  }
+
+  .footer__item img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .footer__link {
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  #game {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  #application {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  #search {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .swiper {
+    margin-top: 95px;
+  }
+}
+@media (max-width: 730px) {
+  .nav__user {
+    width: 120px !important;
+  }
+}
+@media (max-width: 700px) {
+  .swiper {
+    width: 500px !important;
+  }
+
+  .swiper-pagination-border {
+    bottom: 60px !important;
+  }
+}
+@media (max-width: 630px) {
+  .swiper {
+    width: 435px !important;
+  }
+
+  .swiper-pagination-border {
+    bottom: 20px !important;
+  }
+}
+@media (max-width: 580px) {
+  .swiper {
+    width: 400px !important;
+  }
+
+  .swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: 10px !important;
+  }
+
+  .swiper-button-prev, .swiper-rtl .swiper-button-next {
+    left: 10px !important;
+  }
+}
+@media (max-width: 540px) {
+  .swiper {
+    width: 350px !important;
+  }
+
+  .app__block {
+    margin-top: 10px !important;
+  }
+}
+@media (max-width: 515px) {
+  .app__current-block {
+    flex-direction: inherit !important;
+    justify-content: center;
+  }
+
+  .app__current-button-column-one {
+    width: 330px !important;
   }
 }
 
