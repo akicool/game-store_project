@@ -12,6 +12,20 @@
     width: 870px !important;
   }
 }
+@media (max-width: 1243px) {
+  .app__genre-button {
+    width: 200px !important;
+  }
+
+  .app__genre-button-text {
+    font-size: 27px !important;
+  }
+
+  .app__genre-button-link {
+    width: 184px !important;
+    height: 45px !important;
+  }
+}
 @media (max-width: 1200px) {
   .nav__item {
     font-size: 30px !important;
