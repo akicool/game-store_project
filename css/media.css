@@ -26,6 +26,11 @@
     height: 45px !important;
   }
 }
+@media (max-width: 1220px) {
+  .app__current-button {
+    width: 450px !important;
+  }
+}
 @media (max-width: 1200px) {
   .nav__item {
     font-size: 30px !important;
@@ -39,6 +44,24 @@
     width: 140px !important;
   }
 }
+@media (max-width: 1120px) {
+  .app__current-button-text {
+    font-size: 33px !important;
+  }
+
+  .app__current-button-text {
+    font-size: 33px !important;
+  }
+
+  .app__current-button {
+    width: 435px !important;
+  }
+
+  .app__current-block img {
+    width: 125px !important;
+    height: 125px !important;
+  }
+}
 @media (max-width: 1098px) {
   .nav__logo {
     margin-left: 18px !important;
@@ -46,6 +69,52 @@
 
   .nav__logo-block {
     width: 775px !important;
+  }
+}
+@media (max-width: 1080px) {
+  .nav__item {
+    font-size: 25px !important;
+  }
+
+  .nav__logo-block {
+    width: 720px !important;
+  }
+}
+@media (max-width: 1060px) {
+  .app__current-button {
+    width: 415px !important;
+  }
+
+  .app__block .app__genre-block img {
+    width: 125px !important;
+    height: 125px !important;
+  }
+}
+@media (max-width: 1030px) {
+  .app__current-button {
+    width: 390px !important;
+  }
+
+  .app__current-button img {
+    width: 115px !important;
+  }
+
+  .app__current-button-link {
+    width: 185px !important;
+    font-size: 32px !important;
+  }
+
+  .app__current-button-text {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 1025px) {
+  .nav__item {
+    font-size: 20px !important;
+  }
+
+  .nav__logo-block {
+    width: 650px !important;
   }
 }
 
