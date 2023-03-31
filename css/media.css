@@ -572,6 +572,33 @@
     width: 70% !important;
   }
 }
+@media (max-width: 400px) {
+  .app__current-text {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important;
+  }
+
+  .app__genre-button-column-one {
+    width: 260px;
+  }
+
+  .app__genre-button-column-two {
+    width: 260px;
+    margin-bottom: 50px !important;
+  }
+
+  .app__genre-block {
+    align-items: center;
+  }
+
+  .app__genre-text {
+    display: flex;
+    justify-content: center;
+    margin-left: 0 !important;
+    margin-top: 60px !important;
+  }
+}
 @media (max-width: 390px) {
   .swiper {
     width: 300px !important;
