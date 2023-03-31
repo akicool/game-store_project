@@ -376,6 +376,7 @@
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0px 10px 20px 5px rgba(165, 123, 255, 0.3);
   }
 
   .nav__list {
@@ -534,6 +535,15 @@
     margin-top: 30px !important;
   }
 }
+@media (max-width: 425px) {
+  .app__genre-button-column-one {
+    width: 300px;
+  }
+
+  .app__genre-block {
+    align-items: center;
+  }
+}
 @media (max-width: 420px) {
   .app__current-button-text {
     font-size: 19px !important;
@@ -575,8 +585,8 @@
 }
 @media (max-width: 360px) {
   .container {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 
