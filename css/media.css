@@ -535,15 +535,6 @@
     margin-top: 30px !important;
   }
 }
-@media (max-width: 425px) {
-  .app__genre-button-column-one {
-    width: 300px;
-  }
-
-  .app__genre-block {
-    align-items: center;
-  }
-}
 @media (max-width: 420px) {
   .app__current-button-text {
     font-size: 19px !important;
@@ -551,6 +542,21 @@
 
   .app__current-button {
     width: 245px !important;
+  }
+
+  .app__genre-button {
+    width: 135px !important;
+    height: 166px !important;
+  }
+
+  .app__block .app__genre-block img {
+    width: 65px !important;
+    height: 70px !important;
+  }
+
+  .app__genre-button-text {
+    font-size: 19px !important;
+    line-height: 40px !important;
   }
 }
 @media (max-width: 405px) {
