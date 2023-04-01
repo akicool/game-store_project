@@ -509,6 +509,11 @@
     margin-top: 10px !important;
   }
 }
+@media (max-width: 530px) {
+  .dialog.active .dialog__window {
+    padding: 42px !important;
+  }
+}
 @media (max-width: 515px) {
   .app__current-block {
     flex-direction: inherit !important;
@@ -557,6 +562,11 @@
   .app__genre-button-text {
     font-size: 19px !important;
     line-height: 40px !important;
+  }
+}
+@media (max-width: 410px) {
+  .dialog.active .dialog__window {
+    padding: 22px !important;
   }
 }
 @media (max-width: 405px) {
@@ -614,6 +624,10 @@
   .container {
     padding-left: 20px !important;
     padding-right: 20px !important;
+  }
+
+  .dialog.active .dialog__window {
+    padding: 12px !important;
   }
 }
 

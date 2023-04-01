@@ -322,3 +322,258 @@ a {
         }
     }
 }
+
+// dialog __sign in, log in
+.container.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1);
+    transition: 1s;
+    height: 77vh;
+    padding-top: 11vh !important;
+    padding-bottom: 12vh;
+}
+
+.sub-container.active {
+    display: none;
+}
+
+.dialog {
+    display: none;
+}
+
+.dialog.active {
+    display: flex;
+    flex-direction: column;
+    background: $color-block;
+    opacity: .8;
+    width: 923px;
+    height: 100%;
+    border-radius: 30px;
+    justify-content: center;
+
+    .dialog__window.remove-block {
+        display: none;
+    }
+    
+    .dialog__window {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 100px;
+
+        .dialog__button-signin {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            background-color: $color-user;
+            margin-bottom: 80px;
+            border-radius: 30px;
+            transition: .2s;
+        }
+        .dialog__button-signin:hover {
+            background-color: $color-subtext;
+            transition: .2s;
+        }
+        .dialog__button-signin:active {
+            color: $color-background;
+            transition: 0s;
+        }
+        .dialog__text {
+            font-size: 35px;
+            margin-bottom: 80px;
+        }
+        .dialog__button-login {
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 15px 20px;
+            background-color: $color-user;
+            border-radius: 30px;
+            transition: .2s;
+            margin-bottom: 70px;
+        }
+        .dialog__button-login:hover {
+            background-color: $color-subtext;
+            transition: .2s;
+        }
+        .dialog__button-login:active {
+            color: $color-background;
+            transition: 0s;
+        }
+
+        .dialog__button-back img {
+            background-color: $color-user;
+            width: 30px;
+            height: 30px;
+            padding: 10px;
+            border-radius: 10px; 
+            transition: .2s;  
+        }
+        .dialog__button-back img:hover {
+            background-color: $color-subtext;
+            transition: .2s;
+        }
+    }
+}
+
+
+// dialog __signin click
+.form__signin {
+    display: none;
+}
+
+.form__signin input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(61, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+.form__signin.active {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .form__signin-text {
+        color: $color-text;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+
+    .form__signin-input {
+        padding: 10px;
+        border: 5px solid #A57BFF;
+        border-radius: 10px;
+    }
+
+    .form__signin-input:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .form__signin-input ~ label {
+        position: relative;
+        top: -122px;
+        right: 70px;
+        color: $color-text;
+        font-weight: 900;
+        font-size: 16px;
+    }
+
+    .form__signin-button {
+        padding: 15px 40px;
+        background: $color-user;
+        border-radius: 10px;
+        font-size: 19px;
+        transition: .2s;
+    }
+
+    .form__signin-button:hover {
+        background: $color-subtext;
+        transition: .2s;
+    }
+
+    .form__signin-button:active {
+        color: $color-block;
+        transition: 0s;
+    }
+
+
+    .form__signin-button-back img {
+        background-color: $color-user;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 10px; 
+        transition: .2s;
+        margin-top: 50px;
+    }
+
+    .form__signin-button-back img:hover {
+        background-color: $color-subtext;
+        transition: .2s;
+    }
+}
+
+
+// dialog __login click
+.form__login {
+    display: none;
+}
+
+.form__login input:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(61, 0, 0, 0.25);
+    transition: 0.2s;
+}
+
+.form__login.active {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .form__login-text {
+        color: $color-text;
+        font-weight: 900;
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+    .form__login-input {
+        padding: 10px;
+        border: 5px solid #A57BFF;
+        border-radius: 10px;
+    }
+    .form__login-input:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .form__login-input ~ label {
+        position: relative;
+        top: -98px;
+        right: 75px;
+        color: $color-text;
+        font-weight: 900;
+        font-size: 16px;
+    }
+    .form__login-button {
+        padding: 15px 40px;
+        background: $color-user;
+        border-radius: 10px;
+        font-size: 19px;
+        transition: .2s;
+    }
+    .form__login-button:hover {
+        background: $color-subtext;
+        transition: .2s;
+    }
+
+    .form__login-button:active {
+        color: $color-block;
+        transition: 0s;
+    }
+    .form__login-button-back img {
+        background-color: $color-user;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-radius: 10px; 
+        transition: .2s;
+        margin-top: 30px;
+    }
+    .form__login-button-back img:hover {
+        background-color: $color-subtext;
+        transition: .2s;
+    }
+    
+}
+
+.form__login.container.active {
+    height: 88vh;
+}
+
+
+.dialog__button-login {
+}

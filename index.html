@@ -17,8 +17,9 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="container">
-            <nav class="nav">
+        <div class="container "> <!--delete active--> 
+            <div class="sub-container "> <!--delete active--> 
+                <nav class="nav">
                 <div class="nav__logo-block">
                     <p class="nav__logo">LOGO</p>
                     <ul class="nav__list">
@@ -34,8 +35,8 @@
                     </div>
                     <img src="img/user_icon.svg" alt="">
                 </div>
-            </nav>
-            <div class="swiper mySwiper">
+                </nav>
+                <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide"><img src="https://fireseo.ru/wp-content/uploads/2022/06/programming.jpeg"></div>
                   <div class="swiper-slide"><img src="https://img.freepik.com/free-vector/neon-lights-background-theme_52683-44625.jpg?w=2000"></div>
@@ -47,8 +48,8 @@
                 <div class="swiper-pagination-border">
                     <div class="swiper-pagination"></div>
                 </div>
-            </div>
-            <div class="app__block">
+                </div>
+                <div class="app__block">
                 <div class="app__current-block">
                     <p class="app__current-text">Актуальные</p>
                     <div class="app__current-button-column-one">
@@ -75,13 +76,42 @@
                         <div class="app__genre-button"><img src="img/chromakey.svg" alt=""><div class="app__genre-button-block"><p class="app__genre-button-text">Майнкрафт</p><a href="#" class="app__genre-button-link">Скачать</a></div></div>
                     </div>
                 </div>
-            </div>
-            <div class="footer__app">
+                </div>
+                <div class="footer__app">
                 <ul class="footer__list">
                     <li class="footer__item"> <img src="img/game_icon.svg" alt=""> <a href="#" class="footer__link" id="game"> ИГРЫ</a></li>
                     <li class="footer__item"> <img src="img/cube_icon.svg" alt=""> <a href="#" class="footer__link" id="application"> Приложе <br> ния</a></li>
                     <li class="footer__item"> <img src="img/search_icon.svg" alt=""> <a href="#" class="footer__link" id="search"> Поиск</a></li>
                 </ul>
+                </div>
+            </div>
+            <div class="dialog "> <!--delete active-->
+                <div class="dialog__window "> <!--delete active-->
+                    <a href="#" class="dialog__button-signin">Войти</a>
+                    <p class="dialog__text">ИЛИ</p>
+                    <a href="#" class="dialog__button-login">Зарегистрироваться</a>
+                    <a href="#" class="dialog__button-back"><img src="img/arrow_button.svg" alt=""></a>
+                </div>
+                <form action="" class="form__signin "> <!--delete active-->
+                    <p class="form__signin-text">Вход</p>
+                    <input type="text" class="form__signin-input">
+                    <label>Логин</label>
+                    <input type="text" class="form__signin-input">
+                    <label>Пароль</label>
+                    <a href="#" class="form__signin-button">Войти</a>
+                    <a href="#" class="form__signin-button-back"><img src="img/arrow_button.svg" alt=""></a>
+                </form>
+                <form action="" class="form__login "> <!--delete active-->
+                    <p class="form__login-text">Вход</p>
+                    <input type="text" class="form__login-input">
+                    <label>Логин</label>
+                    <input type="text" class="form__login-input">
+                    <label>Никнейм</label>
+                    <input type="text" class="form__login-input">
+                    <label>Пароль</label>
+                    <a href="#" class="form__login-button">Войти</a>
+                    <a href="#" class="form__login-button-back"><img src="img/arrow_button.svg" alt=""></a>
+                </form>
             </div>
         </div>
     </div>
