@@ -306,6 +306,10 @@ a {
   margin-bottom: 74px;
 }
 
+.nav__user {
+  cursor: pointer;
+}
+
 .container.active {
   display: flex;
   justify-content: center;
