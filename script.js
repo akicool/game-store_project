@@ -62,3 +62,18 @@ formLoginButtonBack.onclick = function() {
   formLogin.classList.remove('active');
   dialogWindow.classList.remove('remove-block');
 };
+
+// button click application 
+let appCurrentButtonLink = document.querySelector('.app__current-button-link');
+let appGenreButtonLink = document.querySelector('.app__genre-button-link');
+
+// button-current click 
+let applicationCurrentBlock = document.querySelector('.application__current-block');
+
+
+appCurrentButtonLink.onclick = function() {
+  subContainer.classList.add('display-off');
+  applicationCurrentBlock.classList.add('display-on');
+};
+
+

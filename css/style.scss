@@ -578,6 +578,81 @@ a {
     height: 88vh;
 }
 
+.sub-container.display-off {
+    display: none;
+}
 
-.dialog__button-login {
+// application click block 
+
+.application__current-block {
+    display: none;
+}
+
+.application__current-block.display-on{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .application__current-preview img{
+        width: 197px;
+        height: 197px;
+        margin-left: 36px;
+    }
+
+    .application__current-preview {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: $color-block;
+        border-radius: 10px;
+        height: 324px;
+
+        .application__current-text-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            margin-right: 170px;
+            margin-left: 20px;
+            
+            .application__current-preview-text {
+                color: $color-text;
+                font-weight: 800;
+                font-size: 62px;
+                line-height: 75px;
+                margin-bottom: 10px;
+            }
+            .application__current-preview-subtext {
+                color: $color-text;
+                background-color: #E9E9E9;
+                padding: 7px;
+                border-radius: 6px;
+                font-weight: 800;
+                font-size: 25px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+            .application__current-preview-subsubtext {
+                color: $color-text;
+                background-color: #E9E9E9;
+                padding: 7px;
+                border-radius: 6px;
+                font-weight: 800;
+                font-size: 25px;
+                line-height: 30px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .application__current-download-button {
+        margin-top: 27px;
+        color: $color-block;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 78px;
+        padding: 8px 263px;
+        background: $color-user;
+        border-radius: 10px;
+    }
 }
